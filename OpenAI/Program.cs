@@ -9,7 +9,7 @@ namespace OpenAI
     internal class Program
     {
         private static readonly HttpClient client = new HttpClient();
-        public static string API_KEY = "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";
+        public static string API_KEY = "";
         public static string _baseAddress = "https://api.openai.com/v1/";
 
         static void Main(string[] args)
